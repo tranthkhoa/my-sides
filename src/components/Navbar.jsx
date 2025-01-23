@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ContactModal from './ContactModal'
 
 function Navbar() {
   return (
@@ -46,7 +47,7 @@ function Navbar() {
                             <Link className="nav-link" to="/products">Cửa Hàng</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Liên Hệ</Link>
+                            <Link className="nav-link" to="/about">Liên Hệ</Link>
                         </li>
                     </ul>
                 </div>
@@ -62,6 +63,14 @@ function Navbar() {
                     <a className="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
                         <i className="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>
+                    <button 
+                        className="btn btn-success ms-3" 
+                        data-bs-toggle="modal" 
+                        data-bs-target="#contactModal"
+                        type="button"
+                    >
+                        Liên Hệ Ngay
+                    </button>
                 </div>
             </div>
         </div>
@@ -82,6 +91,8 @@ function Navbar() {
             </form>
         </div>
       </div>
+
+      <ContactModal />
     </>
   )
 }

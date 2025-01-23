@@ -1,0 +1,51 @@
+/* Product */
+.product-wap { 
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.product-wap .product-color-dot.color-dot-red { background:#f71515;}
+.product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
+.product-wap .product-color-dot.color-dot-black { background:#000000;}
+.product-wap .product-color-dot.color-dot-light { background:#e0e0e0;}
+.product-wap .product-color-dot.color-dot-green { background: #434391; }
+
+.card.product-wap .card .product-overlay {
+    background: rgba(0,0,0,.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.card.product-wap:hover .card .product-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.card.product-wap a { 
+    color: #000;
+}
+
+.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+    font-size: 12px !important;
+}
+
+.product-wap .product-color-dot {
+    width: 6px;
+    height: 6px;
+}
+
+@media (min-width: 992px) {
+    .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+        font-size: 18px !important;
+    }
+    .product-wap .product-color-dot {
+        width: 12px;
+        height: 12px;
+    }
+} 
+
+/* Services */
+.services-icon-wap {transition: .3s;}
+.services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
+.services-icon-wap:hover {
+    background: #434391;
+} 

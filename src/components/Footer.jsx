@@ -6,7 +6,7 @@ function Footer() {
         <div className="container">
             <div className="row">
                 <div className="col-md-4 pt-5">
-                    <h2 className="h2 text-success border-bottom pb-3 border-light logo"><img src="assets/img/logo.png" width="80" /> </h2>
+                    <h2 className="h2 text-success border-bottom pb-3 border-light logo"><img src="/src/assets/img/logo.png" width="80" /> </h2>
                     <ul className="list-unstyled text-light footer-link-list">
                         <li>
                             <i className="fas fa-map-marker-alt fa-fw"></i>

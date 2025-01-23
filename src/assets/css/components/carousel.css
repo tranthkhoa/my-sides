@@ -1,0 +1,43 @@
+/* Hero Carousel */
+#template-mo-zay-hero-carousel { 
+    background: #efefef !important;
+}
+
+/* Hide all carousel indicators and numbers */
+#template-mo-zay-hero-carousel .carousel-indicators {
+    display: none !important;
+}
+
+#template-mo-zay-hero-carousel .carousel-indicators li 
+{
+    display: none !important;
+}
+
+#template-mo-zay-hero-carousel .carousel-indicators [data-bs-slide-to] {
+    display: none !important;
+}
+
+/* Carousel Hero */
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+    color: #434391 !important;
+    font-size: 2.8em !important;
+}
+
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+    font-size: .5em !important;
+    color: #000 !important;
+}
+
+@media (min-width: 576px) {
+    .tempaltemo-carousel .h1 { 
+        font-size: 1em !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #template-mo-zay-hero-carousel .carousel-item {
+        min-height: 30rem !important;
+    }
+} 
