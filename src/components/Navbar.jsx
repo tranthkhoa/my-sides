@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { useBaseUrl } from '../hooks/useBaseUrl'
 
 function Navbar() {
+const { getImageUrl } = useBaseUrl();
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
