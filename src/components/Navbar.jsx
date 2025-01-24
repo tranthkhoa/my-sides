@@ -27,7 +27,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light shadow">
         <div className="container d-flex justify-content-between align-items-center">
             <Link className="navbar-brand text-success logo h1 align-self-center" to="/">
-                <img src="/src/assets/img/logo.png" width="80" alt="Logo" />
+                <img src={getImageUrl("/assets/img/logo.png")} width="80" alt="Logo" />
             </Link>
 
             <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

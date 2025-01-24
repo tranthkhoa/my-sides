@@ -23,7 +23,7 @@ function Content() {
             <div className="col-12 col-md-3 p-5 mt-3">
                 <a href="#">
                   <img 
-                    src={getImageUrl("/src/assets/img/rang-ca-phe-hat5.jpg")} 
+                    src={getImageUrl("/assets/img/rang-ca-phe-hat5.jpg")} 
                     className="rounded-circle img-fluid border" 
                     alt="Cà Phê Hạt Rang"
                   />
@@ -34,7 +34,7 @@ function Content() {
             <div className="col-12 col-md-3 p-5 mt-3">
                 <a href="#">
                   <img 
-                    src={getImageUrl("/src/assets/img/caphebotxay.jpg")} 
+                    src={getImageUrl("/assets/img/caphebotxay.jpg")} 
                     className="rounded-circle img-fluid border" 
                     alt="Cà Phê Bột Xay"
                   />
@@ -45,7 +45,7 @@ function Content() {
             <div className="col-12 col-md-3 p-5 mt-3">
                 <a href="#">
                   <img 
-                    src={getImageUrl("/src/assets/img/hopquacaphe.jpg")} 
+                    src={getImageUrl("/assets/img/hopquacaphe.jpg")} 
                     className="rounded-circle img-fluid border" 
                     alt="Hộp Quà Cà Phê"
                   />
@@ -56,7 +56,7 @@ function Content() {
             <div className="col-12 col-md-3 p-5 mt-3">
                 <a href="#">
                   <img 
-                    src={getImageUrl("/src/assets/img/caphephingiay.jpg")} 
+                    src={getImageUrl("/assets/img/caphephingiay.jpg")} 
                     className="rounded-circle img-fluid border" 
                     alt="Cà Phê Phin Giấy"
                   />
@@ -67,7 +67,7 @@ function Content() {
             <div className="col-12 col-md-3 p-5 mt-3">
                 <a href="#">
                   <img 
-                    src={getImageUrl("/src/assets/img/caphetuiloc.jpg")} 
+                    src={getImageUrl("/assets/img/caphetuiloc.jpg")} 
                     className="rounded-circle img-fluid border" 
                     alt="Cà Phê Túi Lọc"
                   />
@@ -78,7 +78,7 @@ function Content() {
             <div className="col-12 col-md-3 p-5 mt-3">
                 <a href="#">
                   <img 
-                    src={getImageUrl("/src/assets/img/caphedenhoatanmix.jpg")} 
+                    src={getImageUrl("/assets/img/caphedenhoatanmix.jpg")} 
                     className="rounded-circle img-fluid border" 
                     alt="Cà Phê Tan Đen & Mix"
                   />
@@ -89,7 +89,7 @@ function Content() {
             <div className="col-12 col-md-3 p-5 mt-3">
                 <a href="#">
                   <img 
-                    src={getImageUrl("/src/assets/img/tratraicayhoatan.jpg")} 
+                    src={getImageUrl("/assets/img/tratraicayhoatan.jpg")} 
                     className="rounded-circle img-fluid border" 
                     alt="Trà Trái Cây Nhiệt Đới Hoà Tan"
                   />
@@ -100,7 +100,7 @@ function Content() {
             <div className="col-12 col-md-3 p-5 mt-3">
                 <a href="#">
                   <img 
-                    src={getImageUrl("/src/assets/img/traicay.png")} 
+                    src={getImageUrl("/assets/img/traicay.png")} 
                     className="rounded-circle img-fluid border" 
                     alt="Trái Cây Sấy Giòn"
                   />
