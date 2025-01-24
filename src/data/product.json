@@ -1,0 +1,364 @@
+{
+    "products": [
+      {
+        "name": "Cà Phê Hạt Rang HƯƠNG CHỒN Cơ Bản",
+        "sku": "hrHC250",
+        "retail_price": "330,000 ₫",
+        "discounted_price": "231,000₫",
+        "size": "250g",
+          "type": "TÚI",
+        "quantity_per_box": 20,
+          "origin": "ĐĂK LĂK & LÂM ĐỒNG",
+          "roast": "Rang Vừa",
+         "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 100% CÀ PHÊ HƯƠNG CHỒN"
+      },
+      {
+        "name": "Cà Phê Hạt Rang HƯƠNG CHỒN Bạc",
+        "sku": "hrHCB250",
+        "retail_price": "457,000 ₫",
+        "discounted_price": "319,900₫",
+        "size": "250g",
+        "type": "TÚI",
+        "quantity_per_box": 20,
+          "origin": "ĐĂK LĂK & LÂM ĐỒNG",
+          "roast": "Rang Vừa",
+       "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 100% CÀ PHÊ HƯƠNG CHỒN"
+      },
+       {
+        "name": "Cà Phê Hạt Rang HƯƠNG CHỒN Thượng Hạng",
+        "sku": "hrHCTH200",
+        "retail_price": "1,390,000 ₫",
+        "discounted_price": "973,000₫",
+        "size": "200g",
+          "type": "TÚI",
+        "quantity_per_box": 25,
+          "origin": "ĐĂK LĂK & LÂM ĐỒNG",
+           "roast": "Rang Vừa",
+        "notes": "Sản phẩm chất lượng cao nhưng đôi khi giới hạn về sản lượng. 100% CÀ PHÊ HƯƠNG CHỒN"
+      },
+      {
+        "name": "Cà Phê Bột Xay HƯƠNG CHỒN Tinh Tế",
+        "sku": "cxHCTT200",
+        "retail_price": "736,000 ₫",
+         "discounted_price": "515,200₫",
+        "size": "200g",
+        "type": "HỘP",
+        "quantity_per_box": 25,
+        "roast": "Rang Vừa",
+        "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 100% CÀ PHÊ HƯƠNG CHỒN. Cà phê đựng trong túi màng nhôm hút chân không. Độ xay phù hợp với pha phin và pha drip."
+      },
+      {
+        "name": "Cà Phê Bột Xay HƯƠNG CHỒN Đậm Đà",
+        "sku": "cxHCDD200",
+        "retail_price": "736,000 ₫",
+        "discounted_price":"515,200₫",
+        "size": "200g",
+        "type": "HỘP",
+        "quantity_per_box": 25,
+        "roast": "Rang Vừa",
+         "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 100% CÀ PHÊ HƯƠNG CHỒN. Cà phê đựng trong túi màng nhôm hút chân không. Độ xay phù hợp với pha phin và pha drip."
+      },
+       {
+        "name": "Hộp Quà Cà Phê HƯƠNG CHỒN Thượng Hạng",
+         "sku": "hqHCTH250",
+        "retail_price": "2,450,000 ₫",
+        "discounted_price": "1,715,000 đ",
+        "size": "250g",
+          "type": "HỘP",
+        "quantity_per_box": 8,
+           "roast": "Rang Vừa",
+        "notes": "Sản phẩm chất lượng cao nhưng đôi khi giới hạn về sản lượng. 100% HƯƠNG CHỒN THƯỢNG HẠNG. Cà Phê được đựng trong hũ thủy tinh chịu nhiệt và kín khí, nắp nhựa."
+      },
+       {
+        "name": "Hộp Quà Cà Phê HƯƠNG CHỒN Thượng Hạng (Light)",
+         "sku":"hqHCTH250_n",
+        "retail_price": "2,450,000 ₫",
+          "discounted_price": "1,715,000 đ",
+        "size": "250g",
+          "type": "HỘP",
+        "quantity_per_box": 8,
+           "roast": "Rang Nhẹ",
+        "notes": "Sản phẩm chất lượng cao nhưng đôi khi giới hạn về sản lượng. 100% HƯƠNG CHỒN THƯỢNG HẠNG. Cà Phê được đựng trong hũ thủy tinh chịu nhiệt và kín khí, nắp nhựa."
+      },
+      {
+        "name": "Hộp Quà Cà Phê HƯƠNG CHỒN Tinh Tế",
+        "sku": "hqHCTT300",
+        "retail_price": "1,050,000 ₫",
+         "discounted_price": "735,000 đ",
+         "size": "300g",
+          "type": "HỘP",
+        "quantity_per_box": 10,
+        "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 100% CÀ PHÊ HƯƠNG CHỒN TINH TẾ. Túi màng nhôm hút chân không."
+      },
+      {
+        "name": "Hộp Quà Cà Phê HƯƠNG CHỒN Đậm Đà",
+        "sku": "hqHCDD300",
+        "retail_price": "1,050,000 ₫",
+         "discounted_price": "735,000 đ",
+          "size": "300g",
+        "type": "HỘP",
+        "quantity_per_box": 10,
+        "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 100% CÀ PHÊ HƯƠNG CHỒN ĐẬM ĐÀ. Túi màng nhôm hút chân không."
+      },
+       {
+        "name": "Hộp Quà Cà Phê HƯƠNG CHỒN",
+        "sku": "hqHC150",
+         "retail_price": "435,000₫",
+           "discounted_price": "304,500₫",
+          "size": "150g",
+        "type": "HỘP",
+        "quantity_per_box": 15,
+        "notes":"Sản phẩm chất lượng cao nhưng đôi khi giới hạn về sản lượng. 100% CÀ PHÊ HƯƠNG CHỒN. Túi màng nhôm hút chân không. Phin nhôm logo Hương Chồn"
+      },
+      {
+        "name": "Hộp Quà Cà Phê HƯƠNG CHỒN Thượng Hạng",
+        "sku": "hqHCTH150",
+          "retail_price": "1,375,000₫",
+           "discounted_price": "962,500₫",
+          "size": "150g",
+         "type": "HỘP",
+        "quantity_per_box": 15,
+        "notes": "Sản phẩm chất lượng cao nhưng đôi khi giới hạn về sản lượng. 100% HƯƠNG CHỒN THƯỢNG HẠNG. Túi màng nhôm hút chân không. Phin nhôm logo Hương Chồn"
+      },
+       {
+        "name": "Hộp Quà Cà Phê ARABICA Thượng Hạng",
+        "sku": "hqARTH150",
+          "retail_price": "620,000₫",
+           "discounted_price": "434,000₫",
+           "size": "150g",
+          "type": "HỘP",
+        "quantity_per_box": 15,
+        "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 100% ARABICA THƯỢNG HẠNG. Túi màng nhôm hút chân không. Phin nhôm logo Honee Coffee"
+      },
+      {
+        "name": "Hộp Quà Cà Phê ROBUSTA Thượng Hạng",
+        "sku": "hqROTH150",
+          "retail_price":"415,000₫",
+           "discounted_price": "290,500₫",
+           "size":"150g",
+        "type": "HỘP",
+        "quantity_per_box": 15,
+         "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 100% ROBUSTA THƯỢNG HẠNG. Túi màng nhôm hút chân không. Phin nhôm logo Honee Coffee"
+      },
+      {
+         "name":"Hộp Quà Cà Phê MOKA Thượng Hạng",
+         "sku": "hqMKTH150",
+          "retail_price":"642,000₫",
+            "discounted_price":"449,400₫",
+            "size": "150g",
+        "type": "HỘP",
+        "quantity_per_box": 15,
+        "notes":"Sản phẩm chất lượng cao nhưng đôi khi giới hạn về sản lượng. 100% MOKA THƯỢNG HẠNG. Túi màng nhôm hút chân không."
+      },
+       {
+        "name": "Hộp Quà Cà Phê HONEY MOKA",
+         "sku":"hqUMmk150",
+         "retail_price": "642,000₫",
+          "discounted_price":"449,400₫",
+            "size":"150g",
+        "type": "HỘP",
+        "quantity_per_box": 15,
+        "notes":"Sản phẩm được chế biến bằng phương pháp mật ong của Ban Me Gold. 100% MOKA THƯỢNG HẠNG CHẾ BIẾN HONEE. Túi màng nhôm hút chân không. Phin nhôm logo Honee Coffee"
+      },
+       {
+        "name": "Hộp Quà Cà Phê CHỒN Giấc Mộng Viễn Đông",
+        "sku": "hqCHON70",
+         "retail_price": "3,370,500₫",
+          "discounted_price": "2,696,400₫",
+          "size": "70g",
+        "type": "HỘP",
+        "quantity_per_box": 10,
+          "notes":"Sản phẩm cực hiếm. 100% CÀ PHÊ CHỒN. SỐ LƯỢNG RẤT GIỚI HẠN. Cà phê được dựng trong hũ Thủy Tinh Kín Khí, nắp kim loại."
+      },
+       {
+        "name":"Cà Phê Phin Giấy HƯƠNG CHỒN Tinh Tế",
+        "sku": "pgHCTT10_6",
+        "retail_price": "255,000₫",
+          "discounted_price":"178,500₫",
+          "size": "60g",
+        "type": "HỘP",
+        "quantity_per_box": 30,
+          "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 06 GÓI VUÔNG × 10G. 45% ARABICA THƯỢNG HẠNG, 30% MOKA THƯỢNG HẠNG, 25% ROBUSTA THƯỢNG HẠNG. Rang Vừa. Cà phê được đựng trong phễu lọc bằng giấy."
+      },
+      {
+         "name": "Cà Phê Phin Giấy HƯƠNG CHỒN Đậm Đà",
+          "sku":"pgHCDD10_6",
+           "retail_price":"255,000₫",
+          "discounted_price":"178,500₫",
+          "size":"60g",
+        "type": "HỘP",
+        "quantity_per_box": 30,
+         "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 06 GÓI VUÔNG × 10G. 50% HONEY MOKA, 50% CULI THƯỢNG HẠNG. Rang Vừa. Cà phê được đựng trong phễu lọc bằng giấy."
+      },
+      {
+        "name": "Cà Phê Túi Lọc HƯƠNG CHỒN Bạc",
+        "sku": "tlHCB5_15",
+         "retail_price": "390,500₫",
+          "discounted_price": "273,350₫",
+          "size": "75g",
+        "type": "HỘP",
+        "quantity_per_box": 20,
+         "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 100% CÀ PHÊ HƯƠNG CHỒN. 15 Gói Vuông × 05g. Cà phê được đựng trong túi giấy."
+     },
+      {
+        "name": "Cà Phê Hòa Tan Đen HƯƠNG CHỒN Americano",
+         "sku":"tdHC30",
+          "retail_price": "126,000₫",
+           "discounted_price": "88,200₫",
+           "size": "30g",
+        "type": "HŨ",
+        "quantity_per_box": 56,
+        "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 100% CÀ PHÊ SẤY LẠNH. HŨ NHỰA CAO CẤP KÍN KHÍ."
+      },
+      {
+        "name": "Cà Phê Hòa Tan Đen HƯƠNG CHỒN Americano",
+        "sku": "tdHC80",
+          "retail_price":"336,000₫",
+           "discounted_price": "235,200₫",
+          "size": "80g",
+        "type": "HŨ",
+        "quantity_per_box": 48,
+        "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 100% CÀ PHÊ SẤY LẠNH. HŨ THỦY TINH KÍN KHÍ."
+      },
+      {
+        "name": "Cà Phê Hòa Tan Đen HƯƠNG CHỒN Americano [LIMITED EDITION]",
+        "sku": "tdHCled50",
+         "retail_price": "262,500₫",
+          "discounted_price":"183,750₫",
+          "size": "50g",
+       "type": "HŨ",
+        "quantity_per_box": 36,
+        "notes":"Sản phẩm chất lượng cao nhưng đôi khi giới hạn về sản lượng. 100% CÀ PHÊ SẤY LẠNH ARABICA THƯỢNG HẠNG. HŨ THỦY TINH KÍN KHÍ."
+      },
+      {
+        "name": "Cà Phê Hòa Tan VALENTINA Phấn Hoa Cà Phê",
+        "sku":"htVA16_10",
+          "retail_price": "125,000₫",
+           "discounted_price": "87,500₫",
+          "size": "160g",
+        "type": "HỘP",
+        "quantity_per_box": 30,
+        "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 10 STICKS × 16G. 13% TINH CÀ PHÊ, 03% PHẤN HOA, BỘT SỮA THỰC VẬT, ĐƯỜNG (70% ĐƯỜNG ĂN KIÊNG & 30% ĐƯỜNG PHÈN)"
+      },
+       {
+         "name": "Cà Phê Hòa Tan SÁNG Sữa Đá",
+         "sku":"htSAREsuada18_12",
+         "retail_price": "75,000 ₫",
+           "discounted_price":"52,500₫",
+           "size": "216g",
+        "type": "HỘP",
+        "quantity_per_box": 24,
+         "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 12 GÓI DÀI × 18G. 45% BỘT SỮA THỰC VẬT, 13% TINH CHẤT CÀ PHÊ, ĐƯỜNG THÔ TỰ NHIÊN"
+      },
+      {
+        "name": "Cà Phê Hòa Tan SÁNG Sữa Đá",
+         "sku":"htSAREsuada18_30",
+          "retail_price": "180,000 ₫",
+            "discounted_price":"126,000₫",
+          "size": "540g",
+        "type": "TÚI",
+        "quantity_per_box": 12,
+         "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 30 GÓI DÀI × 18G. 45% BỘT SỮA THỰC VẬT, 13% TINH CHẤT CÀ PHÊ, ĐƯỜNG THÔ TỰ NHIÊN"
+      },
+       {
+        "name":"Cà Phê Hòa Tan Sữa Dừa INSTANT DELIGHT Cocofé",
+        "sku":"htIDcc16_10",
+         "retail_price": "95,000 ₫",
+           "discounted_price": "66,500₫",
+           "size": "160g",
+         "type": "HỘP",
+        "quantity_per_box": 30,
+         "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 10 GÓI DÀI × 16G. 10.0% TINH CHẤT CÀ PHÊ, BỘT SỮA THỰC VẬT, BỘT SỮA DỪA, ĐƯỜNG PHÈN"
+      },
+      {
+        "name": "Cà Phê Hòa Tan Sữa Dừa INSTANT DELIGHT Cocofé",
+         "sku":"htIDcc16_30",
+         "retail_price":"280,000 ₫",
+           "discounted_price":"196,000₫",
+          "size": "480g",
+        "type": "TÚI",
+        "quantity_per_box": 12,
+        "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 30 GÓI DÀI × 16G. 10.0% TINH CHẤT CÀ PHÊ, BỘT SỮA THỰC VẬT, BỘT SỮA DỪA, ĐƯỜNG PHÈN"
+      },
+      {
+        "name":"Trà Sữa Matcha Hòa Tan INSTANT DELIGHT Matcha",
+        "sku":"htIDma16_10",
+          "retail_price":"90,000 ₫",
+           "discounted_price":"63,000₫",
+          "size": "160g",
+        "type": "HỘP",
+         "quantity_per_box": 30,
+        "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 10 GÓI DÀI × 16G. 50.0% BỘT SỮA THỰC VẬT, ĐƯỜNG PHÈN & TINH CHẤT TRÀ XANH NHẬT BẢN"
+      },
+      {
+         "name": "Cà Phê Hòa Tan Sầu Riêng INSTANT DELIGHT Durikopi",
+         "sku": "htIDdk16_10",
+         "retail_price": "150,000 ₫",
+           "discounted_price":"105,000₫",
+           "size":"160g",
+         "type": "HỘP",
+         "quantity_per_box": 30,
+          "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 10 GÓI DÀI × 16G. 10.0% TINH CHẤT CÀ PHÊ, BỘT SẦU RIÊNG, BỘT SỮA THỰC VẬT, ĐƯỜNG PHÈN"
+     },
+      {
+        "name":"TRÀ CHANH DÂY",
+        "sku":"tfCHANHDAY10-H10",
+          "retail_price": "72,000₫",
+            "discounted_price":"50,400₫",
+            "size": "100g",
+        "type": "HỘP",
+        "quantity_per_box": 36,
+         "notes": "Sản phẩm có nguồn cung và chất lượng ổn định. 45% BỘT CHANH DÂY, 15% ĐƯỜNG PHÈN, 15% ĐƯỜNG CỎ NGỌT, 15% TINH CHẤT TRÀ, HẠT CHIA, HƯƠNG CHANH DÂY. XUẤT XỨ VIỆT NAM."
+      },
+        {
+        "name":"TRÀ MÃNG CẦU",
+          "sku":"tfMANGCAU10-H10",
+          "retail_price": "79,000₫",
+           "discounted_price": "55,300₫",
+          "size": "100g",
+        "type": "HỘP",
+        "quantity_per_box": 36,
+          "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 45% BỘT MÃNG CẦU, 15% ĐƯỜNG PHÈN, 15% ĐƯỜNG CỎ NGỌT, 15% TINH CHẤT TRÀ, HẠT CHIA, HƯƠNG MÃNG CẦU. XUẤT XỨ VIỆT NAM."
+      },
+      {
+        "name": "TRÀ TẮC Mật Ong",
+          "sku":"tfTACmatong10-H10",
+          "retail_price":"79,000₫",
+           "discounted_price":"55,300₫",
+          "size": "100g",
+        "type": "HỘP",
+        "quantity_per_box": 36,
+        "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 45% BỘT TẮC, 20% BỘT MẬT ONG, 15% TINH CHẤT TRÀ, 10% ĐƯỜNG PHÈN, HẠT CHIA, HƯƠNG TẮC. XUẤT XỨ VIỆT NAM."
+      },
+      {
+        "name": "TRÀ VẢI",
+        "sku":"tfVAI10-H10",
+         "retail_price":"72,000₫",
+           "discounted_price": "50,400₫",
+          "size": "100g",
+        "type":"HỘP",
+        "quantity_per_box": 36,
+         "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 45% BỘT VẢI, 15% ĐƯỜNG PHÈN, 15% ĐƯỜNG CỎ NGỌT, 15% TINH CHẤT TRÀ, HẠT CHIA, HƯƠNG MÃNG CẦU. XUẤT XỨ VIỆT NAM."
+      },
+       {
+        "name":"TRÀ XOÀI",
+        "sku":"tfXOAI10-H10",
+          "retail_price": "79,000₫",
+           "discounted_price":"55,300₫",
+           "size": "100g",
+        "type": "HỘP",
+        "quantity_per_box": 36,
+         "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 45% BỘT XOÀI, 15% ĐƯỜNG PHÈN, 15% ĐƯỜNG CỎ NGỌT, 15% TINH CHẤT TRÀ, HẠT CHIA, HƯƠNG XOÀI. XUẤT XỨ VIỆT NAM."
+      },
+      {
+         "name": "XOÀI Sấy Dẻo",
+         "sku":"sdXOAI-T200",
+           "retail_price": "84,000 ₫",
+            "discounted_price": "58,800₫",
+          "size": "200g",
+        "type":"TÚI",
+        "quantity_per_box": 50,
+        "notes":"Sản phẩm có nguồn cung và chất lượng ổn định. 95% XOÀI, ĐƯỜNG, CHẤT CHỐNG OXY HÓA (E223). XUẤT XỨ VIỆT NAM."
+      }
+    ]
+  }

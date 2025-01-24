@@ -20,7 +20,7 @@ function Header() {
 
   return (
     <div id="template-mo-zay-hero-carousel" className="carousel slide">
-      <ol className="carousel-indicators">
+      {/* <ol className="carousel-indicators">
         {slidesData.slides.map((_, index) => (
           <li
             key={index}
@@ -30,7 +30,7 @@ function Header() {
             data-bs-slide-to={index}
           ></li>
         ))}
-      </ol>
+      </ol> */}
       
       <div className="carousel-inner">
         {slidesData.slides.map((slide, index) => (
@@ -42,7 +42,7 @@ function Header() {
                 </div>
                 <div className="col-lg-6 mb-0 d-flex align-items-center">
                   <div className="text-align-left align-self-center">
-                    <h1 className="h1">{renderTitle(slide)}</h1>
+                    <h1 className="h1 text-success">{renderTitle(slide)}</h1>
                     <h3 className="h2">{slide.subtitle}</h3>
                     <p>{slide.description}</p>
                   </div>

@@ -1,11 +1,20 @@
 import React from 'react'
+import defaultImage from '../assets/img/default.png'
 
 function Product({ image, rating, price, title, description, reviews }) {
   return (
     <div className="col-12 col-md-4 mb-4">
         <div className="card h-100">
             <a href="shop-single.html">
-                <img src={image} className="card-img-top" alt={title}/>
+                <img 
+                    src={image} 
+                    className="card-img-top" 
+                    alt={title}
+                    onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = defaultImage;
+                    }}
+                />
             </a>
             <div className="card-body">
                 <ul className="list-unstyled d-flex justify-content-between">

@@ -1,56 +1,86 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import './Footer.css'
 
-function Footer() {
+const Footer = () => {
+  const productCategories = [
+    { id: 'coffee-beans', name: 'Cà Phê Hạt', path: '/products?category=coffee-beans' },
+    { id: 'ground-coffee', name: 'Cà Phê Xay', path: '/products?category=ground-coffee' },
+    { id: 'instant-coffee', name: 'Cà Phê Hòa Tan', path: '/products?category=instant-coffee' },
+    { id: 'gift-sets', name: 'Hộp Quà', path: '/products?category=gift-sets' },
+    { id: 'tea', name: 'Trà', path: '/products?category=tea' }
+  ]
+
   return (
-    <footer className="bg-dark" id="tempaltemo_footer">
-        <div className="container">
-            <div className="row">
-                <div className="col-md-4 pt-5">
-                    <h2 className="h2 text-success border-bottom pb-3 border-light logo"><img src="/src/assets/img/logo.png" width="80" /> </h2>
-                    <ul className="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i className="fas fa-map-marker-alt fa-fw"></i>
-                            Q25, Đường Số 13, P. Tân Thới Nhất, Quận 12, TP. HCM
-                        </li>
-                        <li>
-                            <i className="fa fa-phone fa-fw"></i>
-                            <a className="text-decoration-none" href="tel:0886-95-9999">0886.95.9999</a>
-                        </li>
-                        <li>
-                            <i className="fa fa-envelope fa-fw"></i>
-                            <a className="text-decoration-none" href="mailto:info@tamducphat.com">info@tamducphat.com</a>
-                        </li>
-                    </ul>
-                </div>
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="footer-content">
+          {/* Company Info */}
+          <div className="footer-section">
+            <h3>Về Chúng Tôi</h3>
+            <p>Công ty TNHH XNK Tâm Đức Phát</p>
+            <p>MST: 031xxxxxx</p>
+            <p>Địa chỉ: Q25, Đường Số 13, P. Tân Thới Nhất, Quận 12, TP. HCM</p>
+          </div>
 
-                <div className="col-md-4 pt-5">
-                    <h2 className="h2 text-light border-bottom pb-3 border-light">Danh Mục Sản Phẩm</h2>
-                    <ul className="list-unstyled text-light footer-link-list">
-                        {/* ... Footer product categories ... */}
-                    </ul>
-                </div>
+          {/* Product Categories */}
+          <div className="footer-section">
+            <h3>Danh Mục Sản Phẩm</h3>
+            <ul className="footer-links">
+              {productCategories.map(category => (
+                <li key={category.id}>
+                  <Link to={category.path}>{category.name}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
 
-                <div className="col-md-4 pt-5">
-                    <h2 className="h2 text-light border-bottom pb-3 border-light">Thông Tin Thêm</h2>
-                    <ul className="list-unstyled text-light footer-link-list">
-                        {/* ... Footer additional info links ... */}
-                    </ul>
-                </div>
+          {/* Customer Service */}
+          <div className="footer-section">
+            <h3>Hỗ Trợ Khách Hàng</h3>
+            <ul className="footer-links">
+              <li><Link to="/shipping">Chính sách vận chuyển</Link></li>
+              <li><Link to="/returns">Chính sách đổi trả</Link></li>
+              <li><Link to="/payment">Phương thức thanh toán</Link></li>
+              <li><Link to="/faq">Câu hỏi thường gặp</Link></li>
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div className="footer-section">
+            <h3>Liên Hệ</h3>
+            <ul className="footer-contact">
+              <li>
+                <i className="fas fa-phone"></i>
+                <span>Hotline: 0886.95.9999</span>
+              </li>
+              <li>
+                <i className="fas fa-envelope"></i>
+                <span>Email: info@tamducphat.vn</span>
+              </li>
+              <li>
+                <i className="fas fa-clock"></i>
+                <span>Giờ làm việc: 8:00 - 22:00</span>
+              </li>
+            </ul>
+            <div className="social-links">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-youtube"></i>
+              </a>
             </div>
+          </div>
         </div>
 
-        <div className="w-100 bg-black py-3">
-            <div className="container">
-                <div className="row pt-2">
-                    <div className="col-12">
-                        <p className="text-left text-light">
-                            Copyright &copy; 2024 Tâm Đức Phát 
-                            | Designed by <a rel="sponsored" href="#" target="_blank">K</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div className="footer-bottom">
+          <p>&copy; 2024 Tâm Đức Phát. Tất cả quyền được bảo lưu.</p>
         </div>
+      </div>
     </footer>
   )
 }

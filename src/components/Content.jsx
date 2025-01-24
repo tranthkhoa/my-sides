@@ -1,36 +1,15 @@
 import React from 'react'
 import Product from './Product'
 import { useBaseUrl } from '../hooks/useBaseUrl'
+import productsData from '../data/product.json'
 
 function Content() {
   const { getImageUrl } = useBaseUrl();
-  
-  const featuredProducts = [
-    {
-      image: getImageUrl("/src/assets/img/feature_prod_01.jpg"),
-      rating: 3,
-      price: "240.00",
-      title: "Gym Weight",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.",
-      reviews: 24
-    },
-    {
-      image: getImageUrl("/src/assets/img/feature_prod_02.jpg"),
-      rating: 3,
-      price: "480.00",
-      title: "Cloud Nike Shoes",
-      description: "Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.",
-      reviews: 48
-    },
-    {
-      image: getImageUrl("/src/assets/img/feature_prod_03.jpg"),
-      rating: 5,
-      price: "360.00",
-      title: "Summer Addides Shoes",
-      description: "Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.",
-      reviews: 74
-    }
-  ];
+
+  // Sort products by discounted price in descending order and get the top 3
+  const featuredProducts = productsData.products
+    .sort((a, b) => parseFloat(b.discounted_price.replace(/[^\d]/g, '')) - parseFloat(a.discounted_price.replace(/[^\d]/g, '')))
+    .slice(0, 3);
 
   return (
     <>
@@ -141,7 +120,15 @@ function Content() {
             </div>
             <div className="row">
                 {featuredProducts.map((product, index) => (
-                    <Product key={index} {...product} />
+                    <Product 
+                        key={index} 
+                        image={getImageUrl(`/src/assets/img/${product.sku}.jpg`)}
+                        rating={product.rating} 
+                        price={product.discounted_price} 
+                        title={product.name} 
+                        description={product.notes} 
+                        reviews={Array.isArray(product.reviews) ? product.reviews.length : 0}
+                    />
                 ))}
             </div>
         </div>
